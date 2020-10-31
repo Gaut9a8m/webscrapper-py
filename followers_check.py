@@ -5,7 +5,7 @@ import signal
 import time 
 
 
-url = 'https://www.instagram.com/YOUR USER NAME'
+url = 'https://www.instagram.com/khane_p_kharcha'
 headers={"User-Agent":'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36'} 
 
 
@@ -48,7 +48,7 @@ if __name__ == "__main__":
         print("checking...")
         time.sleep(1)
         check_follower()   
-        time.sleep(60)
+        time.sleep(30)
             
 
         if interrupted:
